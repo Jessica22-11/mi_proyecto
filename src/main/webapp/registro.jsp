@@ -10,41 +10,108 @@
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
         <title>Registro De Usuario</title>
-        <style>
-           body {font-family: Arial, sans-serif;
-           margin: 0;
-           padding: 20px;
-           line-height: 1.6;}
-           h1 { color: #333; }
-           .container{max-width: 800px;
-           margin: 0 auto; }
-           .form-group { margin-bottom: 15px; }
-           .form-group label {display: block;
-           margin-bottom: 5px;
-           font-weight: bold; }
-           .form-group input { width: 100%;
-           padding: 8px;
-           box-sizing: border-box;
-           border: 1px solid #ddd;
-           border-radius: 4px;}
-           .btn { padding: 10px 15px;
-           background-color: #4CAF50;
-           color: white;
-           border: none;
-           border-radius: 4px;
-           cursor: pointer;}
-           .btn:hover { background-color: #45a049; }
-           .message { padding: 10px;
-           margin: 20px 0;
-           background-color: #d4edda;
-           border: 1px solid #c3e6cb; 
-           border-radius: 4px;
-           color: #155724;}
-           .menu { margin: 20px 0; }
-           .menu a { color: #4CAF50;
-           text-decoration: none; }
-           .menu a:hover { text-decoration: underline; }
-        </style>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 0;
+            line-height: 1.6;
+            background: linear-gradient(135deg, #a18cd1, #fbc2eb);
+            color: #333;
+            min-height: 100vh;
+        }
+
+        h1 {
+            color: #4b0082;
+            text-align: center;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 40px auto;
+            background: #f3e8ff;
+            padding: 30px;
+            border-radius: 12px;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+        }
+
+        .form-group {
+            margin-bottom: 15px;
+        }
+
+        .form-group label {
+            display: block;
+            margin-bottom: 5px;
+            font-weight: bold;
+        }
+
+        .form-group input {
+            width: 100%;
+            padding: 10px;
+            box-sizing: border-box;
+            border: 1px solid #ccc;
+            border-radius: 6px;
+            transition: border-color 0.3s;
+        }
+
+        .form-group input:focus {
+            border-color: #7e57c2;
+            outline: none;
+        }
+
+        .btn {
+            display: block;
+            width: 45%;
+            margin: 20px auto;
+            padding: 16px 0;
+            background-color: #6a0dad;
+            color: white;
+            border: none;
+            border-radius: 8px;
+            cursor: pointer;
+            font-size: 15px;
+            font-weight: bold;
+            transition: background-color 0.3s, transform 0.2s;
+            margin-top: 20px;
+        }
+
+        .btn:hover {
+            background-color: #7e57c2;
+            transform: translateY(-2px);
+        }
+
+        .message {
+            padding: 10px;
+            margin: 20px 0;
+            background-color: #d4edda;
+            border: 1px solid #c3e6cb;
+            border-radius: 4px;
+            color: #155724;
+        }
+
+        .menu {
+            display: flex;
+            justify-content: center;
+            gap: 10px;
+            margin: 15px 0;
+            flex-wrap: wrap;
+        }
+
+        .menu a {
+            padding: 6px 12px;
+            background-color: #6a0dad;
+            color: white;
+            text-decoration: none;
+            border-radius: 4px;
+            font-size: 13px;
+            transition: background-color 0.3s, transform 0.2s;
+        }
+
+        .menu a:hover {
+            background-color: #7e57c2;
+            transform: translateY(-2px);
+        }
+    </style>
     </head>
     <body>
         <div class="container">

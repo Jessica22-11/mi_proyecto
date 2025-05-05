@@ -11,22 +11,67 @@
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
         <title>Sistema De Registro De Uusraios</title>
         <style>
-            body { font-family: Arial, sans-serif;
-            margin: 0;
-            padding: 20px;
-            line-height: 1.6;}
-            h1 {color: #333; }
-            .container { max-width: 800px;
-            margin: 0 auto;}
-            .menu { display: flex;
-            gap: 20px;
-            margin: 20px 0;}
-            .menu a { padding: 10px 15px;
-            background-color: #4CAF50;
-            color: white;
-            text-decoration: none;
-            border-radius: 4px;}
-            .menu a:hover {background-color: #45a049;}
+            body {
+                font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+                margin: 0;
+                padding: 0;
+                line-height: 1.6;
+                background: linear-gradient(135deg, #a18cd1, #fbc2eb);
+                color: #333;
+                min-height: 100vh;
+            }
+
+            h1, h2 {
+                color: #4b0082; /* Morado intenso */
+            }
+
+            .container {
+                max-width: 800px;
+                margin: 40px auto;
+                background: #ffffff;
+                padding: 30px;
+                border-radius: 12px;
+                box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+            }
+
+            .menu {
+                display: flex;
+                justify-content: center;
+                gap: 20px;
+                margin: 20px 0;
+            }
+
+            .menu a {
+                padding: 12px 20px;
+                background-color: #6a0dad; /* Morado */
+                color: white;
+                text-decoration: none;
+                border-radius: 6px;
+                transition: background-color 0.3s, transform 0.2s;
+            }
+
+            .menu a:hover {
+                background-color: #7e57c2; /* Lila más claro */
+                transform: translateY(-2px);
+            }
+
+            p {
+                font-size: 16px;
+            }
+
+            ul {
+                padding-left: 20px;
+            }
+
+            ul li {
+                margin-bottom: 8px;
+            }
+
+            hr {
+                margin: 30px 0;
+                border: none;
+                border-top: 2px solid #ddd;
+            }
         </style>
     </head>
     <body>
