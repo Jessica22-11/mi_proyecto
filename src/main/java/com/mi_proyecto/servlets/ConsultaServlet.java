@@ -19,7 +19,7 @@ import mi.proyecto.modelo.Usuario;
  *
  * @author tatic
  */
-@WebServlet(name = "ConsultaServlet", urlPatterns = {"/ConsultaServlet"})
+@WebServlet(name = "ConsultaServlet", urlPatterns = {"/consulta"})
 public class ConsultaServlet extends HttpServlet {
     
     //Metodo para manejar solicitudes GET

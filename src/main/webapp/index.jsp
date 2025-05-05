@@ -1,6 +1,6 @@
 <%-- 
     Document   : index
-    Created on : 5/05/2025, 8:44:56 a. m.
+    Created on : 5/05/2025, 6:06:09 p. m.
     Author     : tatic
 --%>
 
@@ -35,8 +35,8 @@
             <p>Este sistema permitira registrar usuarios nuevos y consultar la informacion de los usuarios registrados.</p>
             
             <div class="menu">
-                <a href="registro">Registrar Usuarios</a>
-                <a href="consulta">Consultar Usuarios</a>
+                <a href="registro.jsp">Registrar Usuarios</a>
+                <a href="consulta.jsp">Consultar Usuarios</a>
             </div>
             
             <hr>
@@ -53,3 +53,4 @@
         </div>
     </body>
 </html>
+
