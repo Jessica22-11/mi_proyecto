@@ -18,7 +18,7 @@
             margin: 0;
             padding: 20px;
             line-height: 1.6;
-            background-color: #f3e8ff; /* Fondo general suave */
+            background: linear-gradient(135deg, #a18cd1, #fbc2eb);
         }
 
         h1, h2 {
@@ -39,7 +39,7 @@
 
         .input-container {
         display: flex;
-        justify-content: center; /* Centra input + botón */
+        justify-content: center; 
         align-items: center;
         gap: 10px;
         flex-wrap: wrap;
@@ -195,7 +195,7 @@
             
             <div class="menu">
                 <a href="index.jsp">Volver a Inicio</a>
-                <a href="registro">Registrar Uusuario</a>
+                <a href="registro">Registrar Usuario</a>
             </div>
         </div>
     </body>

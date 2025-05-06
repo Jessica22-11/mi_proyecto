@@ -22,7 +22,7 @@
             }
 
             h1, h2 {
-                color: #4b0082; /* Morado intenso */
+                color: #4b0082; 
             }
 
             .container {
@@ -43,7 +43,7 @@
 
             .menu a {
                 padding: 12px 20px;
-                background-color: #6a0dad; /* Morado */
+                background-color: #6a0dad; 
                 color: white;
                 text-decoration: none;
                 border-radius: 6px;
@@ -51,7 +51,7 @@
             }
 
             .menu a:hover {
-                background-color: #7e57c2; /* Lila más claro */
+                background-color: #7e57c2; 
                 transform: translateY(-2px);
             }
 
